@@ -1,2 +1,1 @@
-# vectron-v1
-vectron-v1
+# buck-converter-8A
