@@ -3,12 +3,487 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "f22d905b-156e-4745-9820-f49f970a4658")
-	(paper "A4")
-	(lib_symbols)
+	(paper "A5")
+	(title_block
+		(title "Buck Converter 8A")
+		(date "2025-09-16")
+		(rev "1.0.0")
+		(company "Stark Industries")
+		(comment 9 "Sharvesh")
+	)
+	(lib_symbols
+		(symbol "TPS54821RHLR:TPS54821RHLR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TPS54821RHLR"
+				(at -12.7 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "TPS54821RHLR:TPS54821RHLR"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS54821RHLR_1_1"
+				(rectangle
+					(start -12.7 0)
+					(end 12.7 -30.48)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "PVIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(hide yes)
+					(name "PVIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "COMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -17.78 0)
+					(length 2.54)
+					(name "RT/CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -22.86 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 -27.94 0)
+					(length 2.54)
+					(name "PWRGD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "PH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "PH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "VSENSE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -17.78 180)
+					(length 2.54)
+					(name "SS/TR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -27.94 180)
+					(length 2.54)
+					(hide yes)
+					(name "THERM_PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -27.94 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -27.94 180)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "TPS54821RHLR:TPS54821RHLR")
+		(at 101.6 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41285eb6-a729-4f5d-a14e-a61d4fe6b0d1")
+		(property "Reference" "U1"
+			(at 88.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPS54821RHLR"
+			(at 88.9 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TPS54821RHLR:TPS54821RHLR"
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8641bab3-5485-430c-8620-008e0f41563e")
+		)
+		(pin "8"
+			(uuid "d05ac518-24b4-4fa2-be3d-cd3f540bf09c")
+		)
+		(pin "11"
+			(uuid "b3b82f06-8097-4e9f-b6f2-a92e2ecc8aaf")
+		)
+		(pin "2"
+			(uuid "a764932a-df43-4bd5-8ef5-dae979567ac8")
+		)
+		(pin "12"
+			(uuid "12b6fce6-c55f-4068-a816-97dbf9a9e875")
+		)
+		(pin "5"
+			(uuid "894104b5-8a65-438e-b16b-0de1f70275de")
+		)
+		(pin "6"
+			(uuid "28c0fd21-b577-4b57-8563-a424ed04ca92")
+		)
+		(pin "10"
+			(uuid "02a8fc47-0b5f-45d0-996f-f6a1023805d2")
+		)
+		(pin "4"
+			(uuid "62067067-536a-4280-9368-c5a30e258bc9")
+		)
+		(pin "1"
+			(uuid "7f3c6e22-f2ce-49fa-90b1-23e0c46513f4")
+		)
+		(pin "15"
+			(uuid "368bcbd2-eaab-4537-b0bf-c99e08958bf5")
+		)
+		(pin "14"
+			(uuid "116b668e-f383-43da-92cc-2318b6fb2d49")
+		)
+		(pin "13"
+			(uuid "0e3f5c15-7b0a-49be-95df-393d871bcdcf")
+		)
+		(pin "7"
+			(uuid "51fed71e-52c2-4648-9a34-2f3b5811f19a")
+		)
+		(pin "9"
+			(uuid "03c72b23-682d-46d0-9ed3-1d00e78c6332")
+		)
+		(instances
+			(project ""
+				(path "/f22d905b-156e-4745-9820-f49f970a4658"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "drawnby.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCjCkUWAFafYyEA1w4WHCSqx1mCzrBErr1UFAnx+4M2IpX8cEv+/3+oJwJZAFMAXgAlaL7o
+				uTz/zxA9/+PBudo2sSeDJec7Thoya9X+/IhJbmLSkFm2/YTTL/kXAICAABW9p9XaKk6FR+eQaNX5
+				fDC76R6DZq29br1tnjjNPioAAoI0ROKMoIhDhW050826hmFY7VUAvHl2bGe30xOtbNVf8g8/q1d2
+				u2amUhZN/KCjnrOb+RSf7Nq1CoknGbaTj7/98z2aojODXfWbXpanePv2aDp2dbW2P4OfVlV77p/L
+				4JAajF7VD5b57HR2FKxYugpX8RO+jOQZNna9TGcZuUXTqoZYC+ut2gnFu1i6DKfBMTwIipBZWVdr
+				NwvRCS3VfVyD02EuFw9FaIU/2Mg5m7K/6WKbOvhTESi7AQGB4d5bN23TEpiV2b6uzEJgWys2i55o
+				OMtF3Gy77oXd7bKIWy/7TTqJyQTR8mTUu5lwFQmFkXh8XOXrusdF0y4Lk3CTLuI5sEPEJPi4E1a1
+				XeTzPvLxd+21I+4PgIqg8UyGmJESKUiSFDpwRKTmqhvOw4aWBWZRQuAujZYrbLBQBQHATYc2Zfm3
+				Eo69zsd5liNStkM9Tr1MhlS/W8LW8L5iQQKDMdPTt0yWQ4NkhE0+LovsXoZ8So5BbrB4EF4SOl0e
+				khTCzDE+O3mysrN5ITnRDvz5rvxhAj6UmT2EKMQka9gSgH4Ehj7fneXic/aVZ40QEOhTp3yZIFgQ
+				j4qCmKgczYBrl1INk1Xj1EF8QP+UyTFpKQeZ6VP2oIYBDX3qQasgzU8ue8p9ZLVJlxr9QYIQ3SH1
+				olHZK2dxQG6f5ThsBMg0wiItOv61V+bba3i0CwJCWiUxNbDpCxfykGD+6CZ1SsPLtuhh/mrQcMBh
+				Fo2WO1t0kNa2abmYkaJnfsZeo1eTmqZjZ/0bhou4jZw0IB2DXgU=|
+			)
+			(checksum "7B2771A299185B03AD1E56A709A1FEF8")
+		)
+	)
 )
