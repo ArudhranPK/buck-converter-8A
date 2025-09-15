@@ -118,17 +118,17 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -15.24 -12.7 0)
 				(length 2.54)
-				(name "EN"
+				(name "COMP"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -154,17 +154,17 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -15.24 -22.86 0)
 				(length 2.54)
-				(name "COMP"
+				(name "EN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
