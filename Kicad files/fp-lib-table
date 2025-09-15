@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TPS54821RHLR")(type "KiCad")(uri "${KIPRJMOD}/custom_footprint/TPS54821RHLR.pretty")(options "")(descr ""))
+)
