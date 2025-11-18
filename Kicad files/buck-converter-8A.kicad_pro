@@ -511,10 +511,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../drawings/",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../drawings/3D PCB/buck-converter-8A.step",
       "svg": "",
       "vrml": ""
     },
